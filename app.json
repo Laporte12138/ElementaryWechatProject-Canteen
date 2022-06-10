@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",              
+    "pages/search/search",
+    "pages/list_name/list_name",
+    "pages/love/love",
+    "pages/logs/logs",
+    "pages/list_name/first_flood/first_flood",
+    "pages/list_name/second_flood/second_flood",
+    "pages/list_name/third_flood/third_flood",
+    "pages/search_more/search_more"
+  ],
+
+  "tabBar": {                  
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle":"white",
+    "list": [{
+      "selectedIconPath": "pages/images/find_1.png",
+      "iconPath": "pages/images/find.png",
+      "pagePath": "pages/search/search",
+      "text": "寻你所爱"
+    }, {
+      "selectedIconPath": "pages/images/list_1.png",
+      "iconPath": "pages/images/list.png",
+      "pagePath": "pages/list_name/list_name",
+      "text": "今日菜品"
+    }, {
+      "selectedIconPath": "pages/images/love_1.png",
+      "iconPath": "pages/images/love.png",
+      "pagePath": "pages/love/love",
+      "text": "我的收藏"
+    }]
+  },
+
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
