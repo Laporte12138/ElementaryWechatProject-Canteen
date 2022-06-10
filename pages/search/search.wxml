@@ -1,0 +1,47 @@
+<!--pages/search/search.wxml-->
+
+<view>
+     <view>
+        <view class="weui-search-bar">
+            <view class="weui-search-bar__form">
+            <!-- 最初始时的搜索框 -->
+                <view class="weui-search-bar__box">
+                    <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+                    <input type="text" class="weui-search-bar__input" bindinput="a" placeholder="输入餐品"/>
+                </view>
+                <!-- 可编辑时的搜索框 -->
+                <label class="weui-search-bar__label" hidden="{{inputShowed}}" bindtap="showInput">
+                    <icon class="weui-icon-search" type="search" size="14"></icon>
+                    <view class="weui-search-bar__text">请输入您所喜爱的餐品</view>
+                </label>
+            </view>
+            <!-- 取消搜索 -->
+            <icon type="clear" size="25" class="weui-search-bar__cancel-btn" hidden="{{!inputShowed}}" bindtap="hideInput"/>
+            <!--前往页面-->
+            <view class="weui-search-bar__go-btn" hidden="{{!inputShowed}}" bindtap="goInput">GO</view>
+        
+        </view>
+    </view>
+</view>
+<!--轮播图-->
+<view class="page__bd">
+        <view class="section section_gap swiper">
+            <swiper style="height:240px;" indicator-dots="{{indicatorDots}}" vertical="{{vertical}}"
+                    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+                <block wx:for-items="{{imgUrls}}" wx:key="idx">
+                    <swiper-item>
+                        <!--<view class="swiper-item bc_{{item}}"></view>-->
+                         <image bindtap="bindViewTap" src="{{item}}" class="slide-image" width="355" height="150"/>
+                    </swiper-item>
+                </block>
+            </swiper>
+        </view>
+</view>
+
+
+
+
+
+
+
+<!--<view class="weui-search-bar__cancel-btn" hidden="{{!inputShowed}}" bindtap="hideInput">x</view>-->
