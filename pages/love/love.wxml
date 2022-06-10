@@ -1,0 +1,4 @@
+<!--pages/love/love.wxml-->
+<view class="hobby">{{love}}</view>
+<image src='cloud://progmme2-5g6pg1lo66480fe7.7072-progmme2-5g6pg1lo66480fe7-1303509378/love111.png' class='in-image' style="opacity:{{0.2}}" mode='widthFix'></image>
+
