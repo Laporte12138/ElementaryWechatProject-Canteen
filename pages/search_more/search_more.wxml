@@ -1,0 +1,6 @@
+<!--pages/search_more/search_more.wxml-->
+<button class="a" bindtap="b"></button>
+<view class="result">搜索成功！</view>
+<view class="display">{{dishes}}</view>
+<button bindtap="trace" class="Trace" >追踪本菜</button>
+<image src='cloud://progmme2-5g6pg1lo66480fe7.7072-progmme2-5g6pg1lo66480fe7-1303509378/bupt.png' class='in-image' style="opacity:{{0.2}}" mode='widthFix'></image>
