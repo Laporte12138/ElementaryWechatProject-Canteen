@@ -1,0 +1,8 @@
+<!--pages/list_name/first_flood/first_flood.wxml-->
+<view class="first">早餐：</view>
+<view class="a">学三不提供早餐</view>
+<view class="second">午餐：</view>
+<view class="b">{{lunch_3}}</view>
+<view class="third">晚餐：</view>
+<view class="c">{{dinner_3}}</view>
+<image src='cloud://progmme2-5g6pg1lo66480fe7.7072-progmme2-5g6pg1lo66480fe7-1303509378/bupt.png' class='in-image' style="opacity:{{0.2}}" mode='widthFix'></image>
