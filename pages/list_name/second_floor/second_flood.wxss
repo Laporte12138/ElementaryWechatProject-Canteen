@@ -1,0 +1,51 @@
+/* pages/list_name/first_flood/first_flood.wxss */
+.first{
+  margin-top: 30px;
+}
+
+.e{
+  /*background-color: transparent;   /*按钮透明*/  
+  /*border:none;				/*设置按钮边框*/
+  margin-top: 60px;
+}
+
+.a{
+  margin-top: 15px;
+}
+
+.second{
+  margin-top: 40px;
+}
+
+.b{
+  margin-top: 15px;
+}
+
+
+.third{
+  margin-top: 40px;
+}
+
+.c{
+  margin-top: 15px;
+}
+
+
+.in-image {
+  margin: 60px auto auto;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  z-index: -1;
+}
+
+.imagesize{
+  display:flex;
+  height: 100%;
+  justify-content: center;
+  align-items:center;
+ }
