@@ -1,0 +1,8 @@
+<!--pages/list_name/list_name.wxml-->
+<button class="first" bindtap="f">学生食堂一层餐厅</button>
+<button class="second" bindtap="s">学生食堂二层清真餐厅</button>
+<button class="third" bindtap="t">学生食堂三层餐厅</button>
+<view class='v'>
+  <image src='cloud://progmme2-5g6pg1lo66480fe7.7072-progmme2-5g6pg1lo66480fe7-1303509378/menu.png' class='in-image' mode='widthFix'></image>
+</view>
+

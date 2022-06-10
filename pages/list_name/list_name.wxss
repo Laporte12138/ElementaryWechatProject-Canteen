@@ -1,0 +1,50 @@
+/* pages/list_name/list_name.wxss */
+Page{
+  height:100%
+}
+
+.first{
+  margin-top: 80px;
+  font-size: large;
+  z-index: 3;
+  color: rgba(17, 1, 1, 0.763);
+  background-color: transparent;   /*按钮透明*/  
+  border:none;				/*设置按钮边框*/
+}
+
+.second{
+  margin-top: 60px;
+  font-size: large;
+  color: rgba(17, 1, 1, 0.763);
+  z-index: 3;
+  background-color: transparent;   /*按钮透明*/  
+  border:none;				/*设置按钮边框*/
+}
+
+.third{
+  margin-top: 60px;
+  font-size: large;
+  color: rgba(17, 1, 1, 0.763);
+  z-index: 3;
+  background-color: transparent;   /*按钮透明*/  
+  border:none;				/*设置按钮边框*/
+}
+
+.v {
+  margin: 0px auto auto;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
+.imagesize{
+  display:flex;
+  height: 100%;
+  justify-content: center;
+  align-items:center;
+ }
+
