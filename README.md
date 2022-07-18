@@ -3,6 +3,8 @@ An elementary Wechat project—canteen service, offering users the service of me
 
 ! You may need an IDE called "微信开发者工具"
 
+
+
 微信小程序——食堂选餐（大一课程作业）
 
 一款可以实现食堂点餐功能的微信小程序，包含查看各层食堂当日菜单、搜索当日是否提供本餐品以及添加收藏的功能。
